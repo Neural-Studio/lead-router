@@ -27,7 +27,7 @@ export default function Nav() {
     <nav className="p-4 flex flex-col gap-4 justify-between h-screen">
       <Link
         href="/"
-        className="border bg-muted/50 flex items-center gap-2 rounded-lg p-6"
+        className="border bg-muted/50 flex items-center gap-2 rounded-lg p-6 flex-col"
       >
         <Image
           className="dark:invert -mt-px mb-px"
@@ -36,6 +36,8 @@ export default function Nav() {
           height={18.53}
           alt="Router.so Wordmark"
         />
+
+        <p className="text-muted-foreground text-lg font-bold">neuralstudio.dev</p>
       </Link>
       <div className="border bg-muted/50 rounded-lg flex flex-col justify-between p-6 h-full">
         <div className="flex flex-col gap-8">

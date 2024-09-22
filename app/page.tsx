@@ -63,7 +63,7 @@ export default async function Page() {
         <Header title={pageData?.title}>{pageData?.description}</Header>
         <div className="grid grid-cols-3 gap-4">
           <Chart chartData={chartData} className="col-span-2" />
-          <Usage totalUsage={75} used={usageData} plan="Free" />
+          <Usage totalUsage={500} used={usageData} plan="Free" />
           <Links />
         </div>
         <div className="mt-8">
@@ -82,7 +82,7 @@ export default async function Page() {
 const navLinks = [
   {
     name: "Endpoints",
-    description: "Create and Manage Router.so Endpoints",
+    description: "Create and Manage Lead Endpoints",
     href: "/endpoints",
   },
   {

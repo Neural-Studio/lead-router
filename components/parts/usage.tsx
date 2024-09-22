@@ -80,7 +80,7 @@ export const Usage = ({
 const UpgradePlan = () => {
   return (
     <a
-      href="https://router.so/upgrade"
+      href="https://neuralstudio.dev/plans"
       target="_blank"
       rel="noopener noreferrer"
       className="p-4 hover:pl-5 hover:pr-3 transition-all h-full w-full border grid gap-1 border-green-500 rounded-sm bg-green-500/15 hover:bg-green-500/25"

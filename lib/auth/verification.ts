@@ -12,7 +12,7 @@ export async function sendVerificationRequest(params: {
 
   try {
     const data = await resend.emails.send({
-      from: "info@router.so",
+      from: "noreply@neuralstudio.dev",
       to: [identifier],
       subject: `Log in to ${host}`,
       text: text({ url, host }),

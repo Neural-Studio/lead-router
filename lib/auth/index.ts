@@ -22,7 +22,7 @@ export const config = {
   providers: [
     Resend({
       apiKey: process.env.RESEND_API_KEY!,
-      from: "info@router.so",
+      from: "noreply@neuralstudio.dev",
       // sendVerificationRequest, -> TODO: send custom email
     }),
     GitHub, // optional GitHub provider

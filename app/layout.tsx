@@ -8,9 +8,9 @@ import { Toaster } from "@/components/ui/sonner";
 const space = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Router.so | The world's simplest lead router",
+  title: "Lead Router | Neural Studio",
   description:
-    "Router.so is the world's simplest lead router. Built for developers, by developers.",
+    "Neural Studio Lead Router using Router.so, the world's simplest lead router. Built for developers, by developers.",
 };
 
 export default function RootLayout({
